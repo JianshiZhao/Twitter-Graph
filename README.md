@@ -14,5 +14,12 @@ Three libraries are used in the source code.
 This program passed two indipendent tests using the provided insight testsuite. The test files are included in the insight_testsuite folder.
 
 ## Example:
-To run the program:   python average_degree.py  tweet_input_file_path  tweet_output_file_ path
+To run the program:   python average_degree.py  tweet_input file path  tweet_output file path
 
+Use as a module: 
+ 
+import average_degree
+twitter = average_degree.twitter_graph()  # create an twitter_graph object and use all the methods included
+
+## Author:  
+This program is written by Jiansh Zhao. Any questions about this program can be sent to jszhaopsu at gmail.com
