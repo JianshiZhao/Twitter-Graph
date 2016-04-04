@@ -1,4 +1,4 @@
-# Insight-Coding-Challenge
+# Twitter Graph
 ## Program Summary
 This program calculates the average degree of a vertex in a Twitter graph for the last 60s. The source code is writtern in Python and uses mostly the basic functions. 
 It contains a class to handle tweet messages including extracting hashtags, collecting hashtags in a sliding time window, creating twitter graph from hashtags and calculating average degree of a vertex for the graph.
