@@ -8,14 +8,8 @@ Created on Thu Mar 31 22:10:42 2016
 import json
 import sys
 from datetime import datetime
-throwaway = datetime.strptime('20110101','%Y%m%d')  
+timetest = datetime.strptime('20110101','%Y%m%d')  # ignore of this line.
 
-# Get the input and output file name 
-try:
-    tweet_input_file = sys.argv[1]
-    tweet_output_file = sys.argv[2]
-except:
-    print "Filename Eorror! Please check the file path." 
 
 class twitter_graph(object):
     '''
@@ -132,6 +126,15 @@ class twitter_graph(object):
 
 
 if __name__ == '__main__':
+    # Get the input and output file name 
+    try:
+        tweet_input_file = sys.argv[1]
+        tweet_output_file = sys.argv[2]
+    except:
+        print "Provide Filename! Or use as an imported module." 
+        tweet_input = raw_input("tweet_input file : \n")
+        tweet_output = raw_input("tweet_output file: \n")
+
     tweet_input = open(tweet_input_file,'r')
     tweet_output = open(tweet_output_file,'w')       
     twitter = twitter_graph() # create a twitter_graph object 
