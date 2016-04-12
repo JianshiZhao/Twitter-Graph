@@ -132,8 +132,8 @@ if __name__ == '__main__':
         tweet_output_file = sys.argv[2]
     except:
         print "Provide Filename! Or use as an imported module." 
-        tweet_input = raw_input("tweet_input file : \n")
-        tweet_output = raw_input("tweet_output file: \n")
+        tweet_input_file = raw_input("tweet_input file : \n")
+        tweet_output_file = raw_input("tweet_output file: \n")
 
     tweet_input = open(tweet_input_file,'r')
     tweet_output = open(tweet_output_file,'w')       
