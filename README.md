@@ -10,9 +10,6 @@ Three libraries are used in the source code.
 2, sys : this library is used to catch the command line arguments, which specify the input and output file dictionaries.
 3, datetime : this librariy is used to compare time stamps for different tweets.
 
-## Test
-This program passed two indipendent tests using the provided insight testsuite. The test files are included in the insight_testsuite folder.
-
 ## Example:
 To run the program:      python average_degree.py  tweet_input_file_path  tweet_output_file_path
 
